@@ -14,8 +14,8 @@ document.getElementById('createTodoBtn').addEventListener('click', () => {
   ipcRenderer.send('add-todo-window')
 })
 // create add notification window button
-helpers.registerViewResourceWindow("notification")
-helpers.registerViewResourceWindow("product")
+helpers.registerViewResourceWindows()
+
 
 // on receive todos
 ipcRenderer.on('todos', (event, todos) => {

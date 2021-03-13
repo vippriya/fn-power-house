@@ -2,27 +2,9 @@
 const { ipcMain , ipcRenderer } = require('electron')
 const path = require('path')
 const axios = require('axios')
+const { INIT_MAP } = require("./resourceConfig")
 
 
-
-const INIT_MAP = {
-    product: {
-        formId: 'productInitForm',
-        eventName: 'init-all-products',
-        resourceName: "product",
-        fileName: "./products/product.html",
-        addResourceWindowEventName : "add-product-window",
-        createResourceViewBtn: 'createProductBtn'
-    },
-    notification: {
-        formId: 'notificationInitForm',
-        eventName: 'init-all-notifications',
-        resourceName: "notification",
-        fileName: "./notification/notification.html",
-        addResourceWindowEventName : "add-notification-window",
-        createResourceViewBtn: "createNotificationBtn"
-    }
-}
 function registerAddResourceWindowHandler(key, mainWindow, Window){
      // create add notificaiton window
    const {fileName , resourceName, addResourceWindowEventName }= INIT_MAP[key];
@@ -104,10 +86,20 @@ function registerEventHandler(key){
   })
 
 }
+
+function registerAddResourceWindowHandlers(mainWindow,Window){
+  Object.keys(INIT_MAP).forEach(key=> registerAddResourceWindowHandler(key, mainWindow,Window));
+}
+function registerEventHandlers(mainWindow,Window){
+  Object.keys(INIT_MAP).forEach(key=> registerEventHandler(key));
+}
+function registerViewResourceWindows(mainWindow,Window){
+  Object.keys(INIT_MAP).forEach(key=> registerViewResourceWindow(key));
+}
 const helpers  = {
     registerInitEvent,
-    registerViewResourceWindow,
-    registerAddResourceWindowHandler,
-    registerEventHandler
+    registerViewResourceWindows,
+    registerAddResourceWindowHandlers,
+    registerEventHandlers
 }
 module.exports = helpers;

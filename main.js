@@ -219,10 +219,7 @@ function main () {
     }
   })
 
- helpers.registerAddResourceWindowHandler("notification", mainWindow,Window)
-
- helpers.registerAddResourceWindowHandler("product", mainWindow,Window)
-
+ helpers.registerAddResourceWindowHandlers(mainWindow,Window)
   
 
   // add-todo from add todo window
@@ -242,8 +239,8 @@ function main () {
     mainWindow.send('todos', updatedTodos)
   })
 
-  helpers.registerEventHandler("notification")
-   helpers.registerEventHandler("product")
+  helpers.registerEventHandlers()
+
   // delete-todo from todo list window
   ipcMain.on('delete-todo', (event, todo) => {
     const updatedTodos = todosData.deleteTodo(todo).todos
