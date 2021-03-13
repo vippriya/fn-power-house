@@ -32,7 +32,7 @@ document.getElementById('notificationForm').addEventListener('submit', (evt) => 
 
 
   // send todo to main process
-  ipcRenderer.send('add-todo', input.value)
+  ipcRenderer.send('add-notification', input.value)
 
   // reset input
   input.value = ''

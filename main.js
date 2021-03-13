@@ -163,7 +163,6 @@ const executeQuery = async (requestProps) => {
      let response;
  console.log("::::::::iniTData::::::");
 
-       
       try {
        
       
@@ -176,7 +175,7 @@ const executeQuery = async (requestProps) => {
         console.error("::::::::done::::::");
    
        } catch (e) {
-        console.error("::::::::error::::::");
+        console.error("::::::::error::::::", error);
       
       }
       return response ?   response.data: response;
@@ -279,6 +278,15 @@ function main () {
 
     mainWindow.send('todos', updatedTodos)
   })
+
+  ipcMain.on('add-notification', (event, todo) => {
+    //const updatedTodos = todosData.addTodo(todo).todos
+
+    addNotification(todo)
+
+    mainWindow.send('todos', updatedTodos)
+  })
+
     // add-todo from add todo window
   ipcMain.on('init-all-notifications', (event, todo) => {
     console.log("#####################init all")
