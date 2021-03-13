@@ -1,0 +1,9 @@
+https://codeburst.io/build-a-todo-app-with-electron-d6c61f58b55a#75f9
+https://www.electronjs.org/docs/tutorial/quick-start
+https://www.electronjs.org/docs/development/build-instructions-gn
+https://flaviocopes.com/node-axios/
+https://codeburst.io/build-a-todo-app-with-electron-d6c61f58b55a
+https://github.com/CodeDraken/electron-todo
+https://codedraken.medium.com/
+https://blog.logrocket.com/nodejs-expressjs-postgresql-crud-rest-api-example/
+https://zetcode.com/javascript/axios/
