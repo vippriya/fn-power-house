@@ -1,0 +1,368 @@
+[
+  {
+    "id": "1"
+  },
+  {
+    "id": "2",
+    "links": [
+      "https://www.unrealengine.com/en-us/",
+      "https://www.unrealengine.com/en-us/learn",
+      "https://forums.unrealengine.com/"
+    ]
+  },
+  {
+    "id": "3",
+    "links": [
+      "https://aws.amazon.com/lumberyard/",
+      "https://aws.amazon.com/lumberyard/faq/",
+      "https://aws.amazon.com/lumberyard/videos/"
+    ]
+  },
+  {
+    "id": "4",
+    "links": [
+      "https://www.crytek.com/",
+      "https://www.cryengine.com/",
+      "https://forum.cryengine.com/app.php/help/faq?sid=4f23641e62b043bd8c36cbaf5346cbb1",
+      "https://forum.cryengine.com/"
+    ]
+  },
+  {
+    "id": "5",
+    "links": [
+      "https://godotengine.org/",
+      "https://godotengine.org/contact",
+      "https://godotengine.org/community"
+    ]
+  },
+  {
+    "id": "6",
+    "links": [
+      "https://www.cocos.com/en/",
+      "https://auth.cocos.com/#/?return_to=%2fsso%2fsignin%3fclient_id%3d215%26url%3dhttps%253a%252f%252fwww.cocos.com%252fen%252fcontact",
+      "https://discuss.cocos2d-x.org/"
+    ]
+  },
+  {
+    "id": "7",
+    "links": [
+      "https://gdevelop-app.com/",
+      "https://gdevelop-app.com/game-studios-indies-and-education",
+      "https://forum.gdevelop-app.com/"
+    ]
+  },
+  {
+    "id": "8",
+    "links": ["https://torque3d.org/", "https://forums.torque3d.org/"]
+  },
+  {
+    "id": "9",
+    "links": [
+      "https://github.com/BansheeMediaPlayer/BansheeMediaPlayer.github.io"
+    ]
+  },
+  {
+    "id": "10",
+    "links": [
+      "https://developer.android.com/studio",
+      "https://developer.android.com/guide"
+    ]
+  },
+  {
+    "id": "11",
+    "links": [
+      "https://developer.android.com/studio",
+      "https://developer.android.com/guide"
+    ]
+  },
+  {
+    "id": "12",
+    "links": [
+      "https://developer.android.com/studio",
+      "https://developer.android.com/guide"
+    ]
+  },
+  {
+    "id": "13",
+    "links": [
+      "https://developer.arm.com/tools-and-software/graphics-and-gaming/arm-mobile-studio",
+      "https://developer.arm.com/tools-and-software/graphics-and-gaming/arm-mobile-studio/support",
+      "https://developer.arm.com/tools-and-software/graphics-and-gaming/arm-mobile-studio/learn"
+    ]
+  },
+  {
+    "id": "14",
+    "links": [
+      "https://www.autodesk.com/",
+      "https://www.autodesk.com/products/maya/overview?support=advanced&plc=maya&term=1-year&quantity=1",
+      "https://knowledge.autodesk.com/support/maya",
+      "https://forums.autodesk.com/t5/maya/ct-p/area-c2?_ga=2.113049988.1806766033.1599488062-268125658.1599488062"
+    ]
+  },
+  {
+    "id": "15",
+    "links": [
+      "https://www.khronos.org/",
+      "https://www.khronos.org/vulkan/",
+      "https://www.khronos.org/about/contact/",
+      "https://community.khronos.org/"
+    ]
+  },
+  {
+    "id": "16",
+
+    "links": [
+      "https://www.blender.org/",
+      "https://www.blender.org/support/",
+      "https://www.blender.org/community/"
+    ]
+  },
+  {
+    "id": "17",
+
+    "links": [
+      "https://www.gimp.org/",
+      "https://www.gimp.org/tutorials/",
+      "https://www.gimp.org/docs/userfaq.html"
+    ]
+  },
+  {
+    "id": "18",
+    "links": [
+      "https://trello.com/en",
+      "https://developer.atlassian.com/cloud/trello/",
+      "https://help.trello.com/"
+    ]
+  },
+  {
+    "id": "19",
+    "links": [
+      "https://www.atlassian.com/software/jira",
+      "https://support.atlassian.com/",
+      "https://community.atlassian.com/"
+    ]
+  },
+  {
+    "id": "20",
+    "links": [
+      "https://slack.com/intl/en-se/",
+      "https://slack.com/intl/en-se/solutions/customer-support",
+      "https://slack.com/intl/en-se/resources"
+    ]
+  },
+  {
+    "id": "21",
+    "links": [
+      "https://github.com/",
+      "https://docs.github.com/en",
+      "https://github.community/"
+    ]
+  },
+  {
+    "id": "22",
+    "links": [
+      "https://www.microsoft.com/en-us/",
+      "https://visualstudio.microsoft.com/",
+      "https://developer.microsoft.com/en-us/"
+    ]
+  },
+  {
+    "id": "23",
+    "links": [
+      "https://developer.apple.com/swift/",
+      "https://swift.org/",
+      "https://swift.org/core-libraries/",
+      "https://forums.swift.org/"
+    ]
+  },
+  {
+    "id": "24",
+    "links": [
+      "https://www.fmod.com/",
+      "https://www.fmod.com/learn",
+      "https://qa.fmod.com/"
+    ]
+  },
+  {
+    "id": "25",
+    "links": [
+      "https://www.audacityteam.org/",
+      "https://www.audacityteam.org/help/faq/",
+      "https://www.audacityteam.org/help/documentation/"
+    ]
+  },
+  {
+    "id": "26",
+    "links": [
+      "https://www.reaper.fm/",
+      "https://www.reaper.fm/userguide.php",
+      "https://forum.cockos.com/forumdisplay.php?f=20"
+    ]
+  },
+  {
+    "id": "27",
+    "links": [
+      "https://www.blackmagicdesign.com/",
+      "https://www.blackmagicdesign.com/products/davinciresolve/",
+      "https://www.blackmagicdesign.com/support/",
+      "https://forum.blackmagicdesign.com/"
+    ]
+  },
+  {
+    "id": "28",
+    "links": [
+      "https://www.monogame.net/",
+      "https://github.com/monogame/monogame/issues",
+      "https://community.monogame.net/"
+    ]
+  },
+  {
+    "id": "29",
+    "links": [
+      "https://www.adobe.com/",
+      "https://creativecloud.adobe.com/apps/all/desktop/pdp/premiere?source=apps",
+      "https://community.adobe.com/t5/premiere-pro/bd-p/premiere-pro?page=1&sort=latest_replies&filter=all&guid=cb298eb4-a324-4694-b0bb-2cd3018cb972&x-product=cchome&x-product-location=apps",
+      "https://helpx.adobe.com/contact.html?x-product=CCHome&x-product-location=Apps&guid=3910442b-1cab-41c3-9b6e-ac801d3501fb"
+    ]
+  },
+  {
+    "id": "30",
+    "links": [
+      "https://www.adobe.com/",
+      "https://creativecloud.adobe.com/apps/all/desktop/pdp/aftereffects?source=apps",
+      "https://community.adobe.com/t5/after-effects/bd-p/after-effects?page=1&sort=latest_replies&filter=all&guid=b4e75208-7de4-4fcf-83fd-4a7322d592e4&x-product=cchome&x-product-location=apps",
+      "https://helpx.adobe.com/contact.html?x-product=CCHome&x-product-location=Apps&guid=d8dc9758-aef8-49d1-a2bf-8d0d824f1873"
+    ]
+  },
+  {
+    "id": "31",
+    "links": [
+      "https://www.adobe.com/",
+      "https://creativecloud.adobe.com/apps/all/desktop/pdp/media-encoder?source=apps",
+      "https://community.adobe.com/t5/adobe-media-encoder/bd-p/media-encoder?page=1&sort=latest_replies&filter=all&guid=3913e7ab-3422-4380-8fe0-5219ebd9bcbc&x-product=cchome&x-product-location=apps",
+      "https://helpx.adobe.com/contact.html?x-product=CCHome&x-product-location=Apps&guid=d8dc9758-aef8-49d1-a2bf-8d0d824f1873"
+    ]
+  },
+  {
+    "id": "32",
+    "links": [
+      "https://www.adobe.com/",
+      "https://creativecloud.adobe.com/apps/all/desktop/pdp/photoshop?source=apps",
+      "https://community.adobe.com/t5/photoshop/bd-p/photoshop?page=1&sort=latest_replies&filter=all&guid=158a445e-031a-4c8f-83f4-0aca4272e981&x-product=cchome&x-product-location=apps",
+      "https://helpx.adobe.com/contact.html?x-product=CCHome&x-product-location=Apps&guid=d8dc9758-aef8-49d1-a2bf-8d0d824f1873"
+    ]
+  },
+  {
+    "id": "33",
+    "links": [
+      "https://www.adobe.com/",
+      "https://creativecloud.adobe.com/apps/all/desktop/pdp/illustrator?source=apps",
+      "https://community.adobe.com/t5/illustrator/bd-p/illustrator?page=1&sort=latest_replies&filter=all&trackingid=dhwc1gtd&mv=in-product&mv2=accc&x-product=cchome&x-product-location=apps&guid=ee08beff-e2a7-4ed6-8faa-3eb0e95d5b4c",
+      "https://helpx.adobe.com/contact.html?x-product=CCHome&x-product-location=Apps&guid=d8dc9758-aef8-49d1-a2bf-8d0d824f1873"
+    ]
+  },
+  {
+    "id": "34",
+    "links": [
+      "https://www.adobe.com/",
+      "https://creativecloud.adobe.com/apps/all/desktop/pdp/audition?source=apps",
+      "https://community.adobe.com/t5/audition/bd-p/audition?page=1&sort=latest_replies&filter=all&guid=544f788f-e321-4467-a7a7-c940b729a01c&x-product=cchome&x-product-location=apps",
+      "https://helpx.adobe.com/contact.html?x-product=CCHome&x-product-location=Apps&guid=d8dc9758-aef8-49d1-a2bf-8d0d824f1873"
+    ]
+  },
+  {
+    "id": "35",
+    "links": ["https://drive.google.com", "https://support.google.com/drive/"]
+  },
+  {
+    "id": "36",
+    "links": ["https://drive.google.com", "https://support.google.com/drive/"]
+  },
+  {
+    "id": "37",
+    "links": [
+      "https://docs.unity3d.com/2019.1/Documentation/Manual/GettingStartedUnityHub.html"
+    ]
+  },
+  {
+    "id": "38",
+    "links": [
+      "https://docs.unity3d.com/2019.1/Documentation/Manual/GettingStartedUnityHub.html"
+    ]
+  },
+  {
+    "id": "39",
+    "links": [
+      "https://www.perforce.com/",
+      "https://en.wikipedia.org/wiki/Perforce"
+    ]
+  },
+  {
+    "id": "40",
+    "links": [
+      "https://www.substance3d.com/products/substance-painter/",
+      "https://www.substance3d.com/"
+    ]
+  },
+  {
+    "id": "41",
+    "links": [
+      "https://obsproject.com/",
+      "https://en.wikipedia.org/wiki/Open_Broadcaster_Software"
+    ]
+  },
+  {
+    "id": "42",
+    "links": [
+      "https://www.wholetomato.com/ ",
+      "https://marketplace.visualstudio.com/items?itemName=WholeTomatoSoftware.VisualAssist"
+    ]
+  },
+  {
+    "id": "43",
+    "links": ["https://www.jetbrains.com/rider/"]
+  },
+
+  {
+    "id": "44",
+    "links": [
+      "https://marmoset.co/toolbag/",
+      "https://marmoset.co/posts/marmoset-toolbag-4-available-now/"
+    ]
+  },
+  {
+    "id": "45",
+    "links": [
+      "https://www.autodesk.com/products/3ds-max/overview?term=1-YEAR&support=null",
+      "https://www.autodesk.com/products/3ds-max/features"
+    ]
+  },
+  {
+    "id": "46",
+    "links": ["https://www.openshot.org/"]
+  },
+  {
+    "id": "47",
+    "links": [
+      "https://pixologic.com/",
+      "http://pixologic.com/zclassroom/",
+      "https://www.zbrushcentral.com/"
+    ]
+  },
+  {
+    "id": "48",
+    "links": [
+      "https://www.sidefx.com/products/houdini/",
+      "https://www.sidefx.com/learn/getting_started/",
+      "https://www.sidefx.com/docs/"
+    ]
+  },
+  {
+    "id": "49",
+    "links": [
+      "https://krita.org/en/",
+      "https://docs.krita.org/en/",
+      "https://docs.krita.org/en/KritaFAQ.html"
+    ]
+  }
+]

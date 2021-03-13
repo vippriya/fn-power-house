@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "name": "Game Engines",
+    "description": "Game Engines",
+    "icon": "/images/categories/gameEngines.svg",
+    "tags": ""
+  },
+  {
+    "id": "2",
+    "name": "3D-modeling",
+    "description": "3D-modeling",
+    "icon": "/images/categories/3dmodeling.svg",
+    "tags": ""
+  },
+  {
+    "id": "3",
+    "name": "Project Management",
+    "description": "Project Management",
+    "icon": "/images/categories/projectMgmt.svg",
+    "tags": ""
+  },
+  {
+    "id": "4",
+    "name": "Video",
+    "description": "Video",
+    "icon": "/images/categories/video.svg",
+    "tags": ""
+  },
+  {
+    "id": "5",
+    "name": "Development Tools",
+    "description": "Development Tools",
+    "icon": "/images/categories/devlopementTools.svg",
+    "tags": ""
+  },
+
+  {
+    "id": "6",
+    "name": "Audio",
+    "description": "Audio",
+    "icon": "/images/categories/audio.svg",
+    "tags": ""
+  },
+  {
+    "id": "7",
+    "name": "Design",
+    "description": "Design",
+    "icon": "/images/categories/design.svg",
+    "tags": ""
+  }
+]

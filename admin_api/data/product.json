@@ -1,0 +1,537 @@
+[
+  {
+    "id": "1",
+    "kbId": "1",
+    "name": "Unity Probuilder",
+    "categories": ["1"],
+    "title": "Create and operate real-time 3d content for cross-platform games.",
+    "description": "Unity is the world’s leading platform for creating and operating interactive, real-time 3d content, providing the tools to make amazing games and publish them to a wide range of devices. The unity core platform enables entire creative teams to be more productive together.",
+    "icon": "/images/products/logo/unity.png",
+    "hero": "/images/products/hero/unity.png"
+
+  },
+  {
+    "id": "2",
+    "kbId": "2",
+    "name": "Unreal Engine",
+    "categories": ["1"],
+    "title": "High quality engine for the best game ideas.",
+    "description": "Photo real rendering, animation, physics, ai, and more—in real time. create the highest-quality games, films, visualizations, and designs with unreal engine. game dev. training & simulation. automotive. broadcast & live events. architecture. film & tv",
+    "icon": "/images/products/logo/unreal.png",
+    "hero": "/images/products/hero/unreal.png",
+    "links": [
+      "https://www.unrealengine.com/en-us/",
+      "https://www.unrealengine.com/en-us/learn",
+      "https://forums.unrealengine.com/"
+    ]
+  },
+  {
+    "id": "3",
+    "kbId": "3",
+
+    "name": "Lumberyard",
+    "categories": ["1"],
+    "title": "game engine integrated with amazon web services.",
+    "description": "Amazon Lumberyard is a game engine with no royalties or seat fees, frictionless integration with twitch and aws, plus much more on the horizon.",
+    "icon": "/images/products/logo/lumberyard.png",
+    "hero": "/images/products/hero/lumberyard.png"
+  },
+  {
+    "id": "4",
+    "kbId": "4",
+    "name": "Cryengine",
+    "categories": ["1"],
+    "title": "All-in-one game engine for flawless game development.",
+    "description": "Cryengine is the first all-in-one development solution with truly scalable computation, multi-award winning graphics, state-of-the-art lighting, realistic physics, intuitive visual scripting, high fidelity audio, designer friendly ai and much more.",
+    "icon": "/images/products/logo/cryengine.png",
+    "hero": "/images/products/hero/cryengine.png"
+  },
+  {
+    "id": "5",
+    "kbId": "5",
+    "name": "Godot",
+    "categories": ["1"],
+    "title": "Open source engine for game development",
+    "description": "godot provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel. godot is completely free and open-source under the very permissive mit license. no strings attached or royalties.",
+    "icon": "/images/products/logo/godot.png",
+    "hero": "/images/products/hero/godot.png"
+  },
+  {
+    "id": "6",
+    "kbId": "9",
+    "name": "Cocos",
+    "categories": ["1", "5"],
+    "title": "Open source engine for making games, apps & cross platform.",
+    "description": "Cocos is an open source development engine. It can be used to build games, apps and other cross platform gui based interactive programs.",
+    "icon": "/images/products/logo/cocos.png",
+    "hero": "/images/products/hero/cocos.png"
+  },
+  {
+    "id": "7",
+    "kbId": "20",
+    "name": "Gdevelop",
+    "categories": ["1", "5"],
+    "title": "open-source, cross-platform game engine.",
+    "description": "Gdevelop is an open-source, cross-platform game engine designed for everyone - it's extensible, fast and easy to learn.",
+    "icon": "/images/products/logo/gdevelop.png",
+    "hero": "/images/products/hero/gdevelop.png"
+  },
+  {
+    "id": "8",
+    "kbId": "21",
+    "name": "Torque3D",
+    "categories": ["1"],
+    "title": "Open-source engine for 3D games.",
+    "description": "Torque game engine, or tge, is an open-source cross-platform 3d computer game engine, developed by garagegames and actively maintained under the current versions torque 3d as well as torque 2d. it was originally developed by dynamix for the 2001 first-person shooter tribes 2.",
+    "icon": "/images/products/logo/torque3D.png",
+    "hero": "/images/products/hero/torque3D.png"
+  },
+  {
+    "id": "9",
+    "kbId": "8",
+
+    "name": "Banshee",
+    "categories": ["1", "5"],
+    "title": "",
+    "description": "A free & modern multi-platform game development toolkit. It features low and high level engine systems, DirectX 11 and OpenGL support, complete asset pipeline,# scripting support and a fully featured editor.",
+    "icon": "/images/products/logo/banshee.png",
+    "hero": "/images/products/hero/banshee.png"
+  },
+  {
+    "id": "10",
+    "kbId": "7",
+    "name": "Android Studio",
+    "categories": ["5", "7"],
+    "title": "Official development tool for the android operating system.",
+    "description": "Android Studio is the official integrated development environment for Google’s Android operating system, free to use and easy to pick up.",
+    "icon": "/images/products/logo/androidStudio.png",
+    "hero": "/images/products/hero/androidStudio.png"
+  },
+  {
+    "id": "11",
+    "kbId": "",
+
+    "name": "Android Studio Vipin",
+    "categories": ["5", "7"],
+    "title": "Official development tool for the android operating system.",
+    "description": "Android Studio is the official integrated development environment for Google’s Android operating system, free to use and easy to pick up.",
+    "icon": "/images/products/logo/androidStudio.png",
+    "hero": "/images/products/hero/androidStudio.png"
+  },
+  {
+    "id": "12",
+    "kbId": "",
+
+    "name": "Android Studio_test",
+    "categories": ["5", "7"],
+    "title": "Official development tool for the android operating system.",
+    "description": "Android Studio is the official integrated development environment for Google’s Android operating system, free to use and easy to pick up.",
+    "icon": "/images/products/logo/androidStudio.png",
+    "hero": "/images/products/hero/androidStudio.png"
+  },
+  {
+    "id": "13",
+    "kbId": "27",
+
+    "name": "Arm Mobile Studio",
+    "categories": ["5"],
+    "title": "Analysis tool for performance, activity and metrics.",
+    "description": "Arm Mobile Studio is a free-to-use performance analysis tool suite that automatically analyzes the cpu activity, gpu activity and content metrics of your game as it runs on a non-rooted android device. ",
+    "icon": "/images/products/logo/androidStudio.png",
+    "hero": "/images/products/hero/androidStudio.png"
+  },
+  {
+    "id": "14",
+    "kbId": "6",
+
+    "name": "Autodesk Maya",
+    "categories": ["2"],
+    "title": "Analysis tool for performance, activity and metrics.",
+    "description": "Maya is 3D computer animation software with powerful modeling,endering, simulation, texturing, and animation tools for artists, modelers, and animators.",
+    "icon": "/images/products/logo/maya.png",
+    "hero": "/images/products/hero/maya.png"
+  },
+  {
+    "id": "15",
+    "kbId": "10",
+
+    "name": "Vulkan",
+    "categories": ["2", "5"],
+    "title": "Design 3D graphics in real time.",
+    "description": "Vulkan is a low-overhead, cross-platform 3d graphics and computing api. Vulkan targets high-performance realtime 3d graphics applications such as video games and interactive media across all platforms",
+    "icon": "/images/products/logo/vulkan.png",
+    "hero": "/images/products/hero/vulkan.png"
+  },
+  {
+    "id": "16",
+    "kbId": "11",
+
+    "name": "Blender",
+    "categories": ["2"],
+    "title": "..3D graphics software for animating, visual effects, art and more.",
+    "description": "Blender is a free and open-source 3D computer graphics software tool-set used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality and computer games.",
+    "icon": "/images/products/logo/blender.png",
+    "hero": "/images/products/hero/blender.png"
+  },
+  {
+    "id": "17",
+    "kbId": "12",
+
+    "name": "Gimp",
+    "categories": ["7"],
+    "title": "Open source raster editor for image manipulation and more.",
+    "description": "Gimp is a free and open-source raster graphics editor used for image manipulation and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. Gimp is available for Linux macOS, and Microsoft Windows.",
+    "icon": "/images/products/logo/gimp.png",
+    "hero": "/images/products/hero/gimp.png"
+  },
+  {
+    "id": "18",
+    "kbId": "13",
+
+    "name": "Trello",
+    "categories": ["3"],
+    "title": "Manage tasks and projects with Trello, by Atlassian.",
+    "description": "Trello is a web-based kanban-style list-making and application which is a subsidiary of atlassian.",
+    "icon": "/images/products/logo/trello.png",
+    "hero": "/images/products/hero/trello.png"
+  },
+  {
+    "id": "19",
+    "kbId": "14",
+
+    "name": "Jira",
+    "categories": ["3"],
+    "title": "Issue and bug tracking developed by Atlassian.",
+    "description": "Jira is a proprietary issue tracking product developed by Atlassian that allows bug tracking and agile project management.",
+    "icon": "/images/products/logo/jirla.png",
+    "hero": "/images/products/hero/jirla.png"
+  },
+  {
+    "id": "20",
+    "kbId": "15",
+
+    "name": "Slack",
+    "categories": ["3"],
+    "title": "Slack is a team communication software with integrated apps.",
+    "description": "Slack brings team communication and collaboration into one place so you can get more work done. check off your to-do list and move your projects forward by bringing the right people, conversations, tools, and information you need together.",
+    "icon": "/images/products/logo/Slack.png",
+    "hero": "/images/products/hero/Slack.png"
+  },
+  {
+    "id": "21",
+    "kbId": "16",
+
+    "name": "GitHub",
+    "categories": ["3"],
+    "title": "Develop, design and review software.",
+    "description": "There’s a lot you can do on github that doesn’t require a complex development environment – like sharing feedback on a design discussion, or reviewing a few lines of code. stay in touch with your team, triage issues, and even merge, right from the app. ",
+    "icon": "/images/products/logo/gitHub.png",
+    "hero": "/images/products/hero/gitHub.png"
+  },
+  {
+    "id": "22",
+    "kbId": "17",
+
+    "name": "Visual Studio",
+    "categories": ["5"],
+    "title": "Visual Studio dev tools & services make app development easy for any platform & language.",
+    "description": "Microsoft Visual Studio dev tools & services  is an integrated development environment from Microsoft. It is used to develop computer programs, as well as websites, web apps, web services and mobile apps.",
+    "icon": "/images/products/logo/visualStudio.png",
+    "hero": "/images/products/hero/visualstudio.png"
+  },
+  {
+    "id": "23",
+    "kbId": "18",
+
+    "name": "Swift",
+    "categories": ["5"],
+    "title": "The official coding framework and language for ISO by Apple.",
+    "description": "Swift is a powerful and intuitive programming language for macOS, ISO, watchOS, tvOS and beyond. writing Swift code is interactive and fun, the syntax is concise yet expressive, and swift includes modern features developers love.",
+    "icon": "/images/products/logo/swift.png",
+    "hero": "/images/products/hero/swift.png"
+  },
+  {
+    "id": "24",
+    "kbId": "23",
+    "name": "FMOD",
+    "categories": ["5", "6"],
+    "title": "A sound effects engine for developing games and applications.",
+    "description": "FMOD is a proprietary sound effects engine and authoring tool for video games and applications developed by Firelight Technologies, that play and mix sounds of diverse formats on many operating systems.",
+    "icon": "/images/products/logo/fmod.png",
+    "hero": "/images/products/hero/fmod.png"
+  },
+  {
+    "id": "25",
+    "kbId": "25",
+    "name": "Audacity",
+    "categories": ["6"],
+    "title": "A wide purposed open-source digital audio editor.",
+    "description": "Audacity is a free and open-source digital audio editor and recording application software, available for Windows, macOS, linuxand other Unix-like operating systems.",
+    "icon": "/images/products/logo/audacity.png",
+    "hero": "/images/products/hero/audacity.png"
+  },
+  {
+
+    "id": "26",
+    "kbId": "26",
+    "name": "REAPERFM",
+    "categories": ["6"],
+    "title": "A multi toolset for audio production.",
+    "description": "REAPERFM is a complete digital audio production application for computers, offering a full multi-track audio and midi recording, editing, processing, mixing and mastering toolset.",
+    "icon": "/images/products/logo/reaper.png",
+    "hero": "/images/products/hero/reaper.png"
+  },
+  {
+
+    "id": "27",
+    "kbId": "24",
+    "name": "DaVinci Resolve",
+    "categories": ["4"],
+    "title": "Multi purpose solution for audio, visual effects, 8k editing & more.",
+    "description": "DaVinci Resolve 16 Studio is the world’s only solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool! You can instantly move between editing, color, effects, and audio with a single click.",
+    "icon": "/images/products/logo/davinci.png",
+    "hero": "/images/products/hero/davinci.png"
+  },
+  {
+    "id": "28",
+    "kbId": "19",
+
+    "name": "Monogame",
+    "categories": ["5"],
+    "title": "C# framework for multiple platforms and systems.",
+    "description": "Monogame is a free c# framework used by game developers to make games for multiple platforms and other systems. It supports IOS, Android, Macos, Tvos, LinuxPlaystation 4, Playstation Vita, Xbox one and Nintendo Switch.",
+    "icon": "/images/products/logo/monogame.png",
+    "hero": "/images/products/hero/monogame.png"
+  },
+  {
+
+    "id": "29",
+    "kbId": "33",
+
+    "name": "Premiere Pro",
+    "categories": ["4"],
+    "title": "Put together and fine-tune video stories in a fast and accurate way.",
+    "description": "Premiere Pro is an industry-leading video editing program that offers support for many formats, efficient workflows and advanced tools for color, graphics and sound. Edit, create and deliver great content for movies, TV, the web and more.",
+    "icon": "/images/products/logo/premierePro.png",
+    "hero": "/images/products/hero/premierePro.png"
+  },
+  {
+    "id": "30",
+    "kbId": "34",
+
+    "name": "After Effects",
+    "categories": ["4", "7"],
+    "title": "Create advanced moving graphics using animation and composition tools",
+    "description": "After Effects is a program for animation and creative editing used by animators, designers and filmmakers. Create movie titles, intros and transitions. Animate a logo or figure.",
+    "icon": "/images/products/logo/afterEffects.png",
+    "hero": "/images/products/hero/afterEffects.png"
+  },
+  {
+    "id": "31",
+    "kbId": "35",
+
+    "name": "MediaEncoder",
+    "categories": ["5", "4"],
+    "title": "Quickly create video files for virtually any screen",
+    "description": "With Media Encoder you can process and manage your media content. Import, recode, create proxies and get output in almost any format available. Work with media in a consistent way across all applications, including Premiere Pro, After Effects, and Audition.",
+    "icon": "/images/products/logo/mediaEncoder.png",
+    "hero": "/images/products/hero/mediaEncoder.png"
+  },
+  {
+    "id": "32",
+    "kbId": "31",
+
+    "name": "Adobe Photoshop",
+    "categories": ["7"],
+    "title": "Play with colors and effects and work with photography with Photoshop",
+    "description": "Photoshop, the world's best image processing and design program. Create and compose photos and illustrations. Design websites and mobile apps. Edit videos, simulate paintings and much more. It's all you need to create, no matter where you get inspiration for it.",
+    "icon": "/images/products/logo/photoshop.png",
+    "hero": "/images/products/hero/photoshop.png"
+  },
+  {
+    "id": "33",
+    "kbId": "32",
+
+    "name": "Adobe Illustrator",
+    "categories": ["7"],
+    "title": "Create designs that can be used anywhere.",
+    "description": "Illustrator is an industry-leading graphic design application that you can use to create logos, icons, images, typography and illustrations for print, web, video and mobile. Here's everything you need to turn simple shapes and colors into sophisticated logos, icons and graphics.",
+    "icon": "/images/products/logo/illustrator.png",
+    "hero": "/images/products/hero/illustrator.png"
+  },
+  {
+    "id": "34",
+    "kbId": "30",
+
+    "name": "Auditon",
+    "categories": ["6"],
+    "title": "Record and mix audio clips with real-time effects and automation.",
+    "description": "Audition CC is the industry's best digital sound studio that you can use to record, design and mix sounds. With the help of multi-track mixing as well as waveform and spectral views, you can easily record, edit and adjust audio content.",
+    "icon": "/images/products/logo/audition.svg",
+    "hero": "/images/products/hero/audition.png"
+  },
+  {
+    "id": "35",
+    "kbId": "36",
+
+    "name": "GoogleDrive",
+    "categories": ["3"],
+    "title": "Access your and your teams files from anywhere.",
+    "description": "Google drive allows you to save and access your files from anywhere, storing them on the cloud. Drive allows for easy sharing between teams and individuals and this makes it an important part of many projects all over the world.",
+    "icon": "/images/products/logo/googleDrive.png",
+    "hero": "/images/products/hero/googleDrive.png"
+  },
+  {
+    "id": "36",
+    "kbId": "",
+
+    "name": "GoogleDrive-2",
+    "categories": ["3"],
+    "title": "Access your and your teams files from anywhere.",
+    "description": "Google drive allows you to save and access your files from anywhere, storing them on the cloud. Drive allows for easy sharing between teams and individuals and this makes it an important part of many projects all over the world.",
+    "icon": "/images/products/logo/googleDrive.png",
+    "hero": "/images/products/hero/googleDrive.png"
+  },
+  {
+    "id": "37",
+    "kbId": "37",
+
+    "name": "UnityHub",
+    "categories": ["7", "1"],
+    "title": "Manage your Unity projects.",
+    "description": "Unity Hub gives you an overview of all your Unity Projects and files and helps organizing more complex game development. Create new projects and open existing ones from here, keeping track of your work.",
+    "icon": "/images/products/logo/unityHub.png",
+    "hero": "/images/products/hero/unityHub.png"
+  },
+  {
+    "id": "38",
+    "kbId": "22",
+
+    "name": "Creative Cloud",
+    "categories": ["7", "3"],
+    "title": "Manage your Adobe projects and libraries.",
+    "description": "Creative Cloud is used to organize the various application within the Adobe suite and manage your user library, cloud storage and more.",
+    "icon": "/images/products/logo/creativeCloud.png",
+    "hero": "/images/products/hero/creativeCloud.png"
+  },
+  {
+    "id": "39",
+    "kbId": "38",
+
+    "name": "Perforce",
+    "categories": ["", ""],
+    "title": "Solve your development challenges with Perforce.",
+    "description": "Perforce is a developer of software used for developing and running applications, including version control software, web-based repository management, developer collaboration, application lifecycle management, web application servers, debugging tools and agile planning software. ",
+    "icon": "/images/products/logo/perforce.svg",
+    "hero": "/images/products/hero/perforce.png"
+  },
+  {
+    "id": "40",
+    "kbId": "39",
+
+    "name": "Substance Painter",
+    "categories": ["", ""],
+    "title": "A design software developed by Adobe for texturing 3D designs.",
+    "description": "Substance by Adobe is a complete suite with everything artists need to create 3D digital. Substance Painter has smart materials, smart masks and integrated bakers, and a state of the art real-time viewport.",
+    "icon": "/images/products/logo/substancePainter.svg",
+    "hero": "/images/products/hero/substancePainter.png"
+  },
+  {
+    "id": "41",
+    "kbId": "40",
+
+    "name": "OBS Studio",
+    "categories": ["", ""],
+    "title": "A Free and open source software for video recording and live streaming.",
+    "description": "Open Broadcaster Software (OBS Studio) is a free and  open-source cross-platform streaming and recording program built with Qt and maintained by the OBS Project.",
+    "icon": "/images/products/logo/obsStudio.svg",
+    "hero": "/images/products/hero/obsStudio.png"
+  },
+  {
+    "id": "42",
+    "kbId": "41",
+
+    "name": "Visual Assist",
+    "categories": ["", ""],
+    "title": "A plug-in for Microsoft Visual Studio for C/C++ and C# Developers.",
+    "description": "Productivity tool for C/C++ and C# with support for UE4. Visual Assist fills gaps in the coding experience of Microsoft Visual Studio, making a great IDEa phenomenal IDE.",
+    "icon": "/images/products/logo/visualAssist.svg",
+    "hero": "/images/products/hero/visualAssist.png"
+  },
+  {
+    "id": "43",
+    "kbId": "42",
+    "name": "Jet Brain Rider",
+    "categories": ["", ""],
+    "title": "Develop .NET, ASP.NET, .NET Core, Xamarin or Unity applications on Windows, Mac, Linux.",
+    "description": "JetBrains Rider is a cross-platform .NET IDE based on the IntelliJ platform and ReSharper. Rider provides 2200+ live code inspections, hundreds of context actions and refactorings brought by ReSharper, and combines them with the IntelliJ platform's solid IDE features.",
+    "icon": "/images/products/logo/jetBrainRider.svg",
+    "hero": "/images/products/hero/jetBrainRider.png"
+  },
+
+  {
+    "id": "44",
+    "kbId": "43",
+
+    "name": "Marmoset toolbag 4",
+    "categories": ["", ""],
+    "title": "3D content production, texturing, rendering, baking and editing.",
+    "description": "Marmoset toolbag 4 is perfect for 3D content creation with real-time rendering, texturing, baking and scene editing tools for every 3D artist.",
+    "icon": "/images/products/logo/marmoset.svg",
+    "hero": "/images/products/hero/marmoset.png"
+  },
+  {
+    "id": "45",
+    "kbId": "44",
+
+    "name": "3ds Max",
+    "categories": ["", ""],
+    "title": "3D graphics software for modeling, rendering and animating.",
+    "description": "3ds Max is a 3D computer graphics software toolset used for modeling, rendering and developing in less time better 3D design visualization, animations, and games. 3ds Max is available for Windows 7 or later.",
+    "icon": "/images/products/logo/3dsMax.svg",
+    "hero": "/images/products/hero/3dsMax.png"
+  },
+  {
+    "id": "46",
+    "kbId": "45",
+
+    "name": "Openshot",
+    "categories": ["", ""],
+    "title": "A free and open-source video editor",
+    "description": "OpenShot Video Editor is an award-winning, open-source video editor, available on Linux, Mac, and Windows. OpenShot can create stunning videos, films, and animations with an easy-to-use interface and rich feature-set.",
+    "icon": "/images/products/logo/openShot.svg",
+    "hero": "/images/products/hero/openShot.png"
+  },
+  {
+    "id": "47",
+    "kbId": "46",
+
+    "name": "Zbrush",
+    "categories": ["", ""],
+    "title": "Industry standard 3D software used for sculpting, texturing and painting.",
+    "description": "ZBrush combines 3Dmodeling, texturing and painting. Using a proprietary 'pixol' technology it stores lighting, color, material, orientation, and depth information for the points making up all objects on the screen. Compared to similar modeling packages, ZBrush is closer to traditional sculpting.",
+    "icon": "/images/products/logo/zbrush.svg",
+    "hero": "/images/products/hero/zbrush.png"
+  },
+  {
+    "id": "48",
+    "kbId": "47",
+    "name": "Houdini",
+    "categories": ["", ""],
+    "title": "",
+    "description": "",
+    "icon": "/images/products/logo/houdini.svg",
+    "hero": "/images/products/hero/houdini.png"
+  },
+  {
+    "id": "49",
+    "kbId": "48",
+    "name": "Krita",
+    "categories": ["", ""],
+    "title": "Professional open source painting software.",
+    "description": "Krita is an open source painting program available for free. It is used for everything from concept art, texture and matte painting to illustrations and comics.",
+    "icon": "/images/products/logo/krita.svg",
+    "hero": "/images/products/hero/krita.png"
+
+  }
+]

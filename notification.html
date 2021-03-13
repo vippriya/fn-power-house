@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Add Todo</title>
+    <link rel="stylesheet" href="../node_modules/spectre.css/dist/spectre.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="columns">
+        <div class="column col-10">
+          <h1 class="text-center">Notifications</h1>
+          <hr/>
+          <h3 class="text-center">upload all</h3>
+            <form id="notificationInitForm">
+
+            <button class="btn">load notifications</button>
+          </form>
+          <hr/>
+          <h3 class="text-center">Add Notification</h3>
+
+          <form id="notificationForm">
+            <div class="form-group">
+              <label class="form-label" for="add-input">id</label>
+              <input class="form-input" type="text" name="add-input" placeholder="uniq id">
+            </div>
+               <div class="form-group">
+              <label class="form-label" for="add-input">title</label>
+              <input class="form-input" type="text" name="add-input" placeholder="title">
+            </div>
+
+            <button class="btn">Add Notification</button>
+          </form>
+
+           <ul id="notificationList"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="./notification.js"></script>
+  </body>
+
+</html>
