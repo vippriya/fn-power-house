@@ -3,6 +3,8 @@ const { ipcMain , ipcRenderer } = require('electron')
 const path = require('path')
 const axios = require('axios')
 
+
+
 const INIT_MAP = {
     product: {
         formId: 'productInitForm',
@@ -21,7 +23,7 @@ const INIT_MAP = {
         createResourceViewBtn: "createNotificationBtn"
     }
 }
-function registerAddResourceWindowHandler(key, mainWindow){
+function registerAddResourceWindowHandler(key, mainWindow, Window){
      // create add notificaiton window
    const {fileName , resourceName, addResourceWindowEventName }= INIT_MAP[key];
    let addTodoWin ;
@@ -61,26 +63,37 @@ const config = {
 	}
 };
 const axiosRef =  axios.create(config);
-async function initData(resourceName) {
-    let response;
-    console.log("::::::::iniTData::::::");
-    try {
-    const params = {
+ async function initData(resourceName) {
+  let response;
+   console.log("::::::::iniTData::::::", resourceName);
+  try {
+      const params = {
         method: "post",
-        url: "http://localhost:9000"+ resourceName+"/fn_fillAll",
-        retry: 1,
+        url: "http://localhost:9000/"+resourceName+"/fn_fillAll",
         retryDelay: 1000
-    }
+      };
+    
         response = await axiosRef.request(params);
         console.error("::::::::done::::::");
-    } catch (e) {
-        console.error("::::::::error::::::", error);
-    }
-    return response ?   response.data: response;
+      } catch (e) {
+        console.error("::::::::error::::::", e);
+      }
+      return response ?   response.data: response;
+  }
+function registerInitEvent(key){
+  const {formId, eventName} = INIT_MAP[key];
+    document.getElementById(formId).addEventListener('submit', (evt) => {
+      // prevent default refresh functionality of forms
+      evt.preventDefault()
+      alert("do it----------------- -------------"+ eventName)
+      // send todo to main process
+      ipcRenderer.send(eventName, "input.value")
+  })
 }
 
 function registerEventHandler(key){
       // create add notificaiton window
+    console.log("::::register:::::::", key)
     const {eventName, resourceName }= INIT_MAP[key];
     ipcMain.on(eventName, (event, todo) => {
    console.log("on....................")
@@ -91,17 +104,6 @@ function registerEventHandler(key){
   })
 
 }
-function registerInitEvent(key){
-  const {formId, eventName} = INIT_MAP[key];
-    document.getElementById(formId).addEventListener('submit', (evt) => {
-      // prevent default refresh functionality of forms
-      evt.preventDefault()
-      alert("do it----------------- -------------")
-      // send todo to main process
-      ipcRenderer.send(eventName, "input.value")
-  })
-}
-
 const helpers  = {
     registerInitEvent,
     registerViewResourceWindow,

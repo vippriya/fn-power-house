@@ -2,6 +2,8 @@
 
 const { ipcRenderer } = require('electron')
 
+const helpers =  require("../renderer/helper/helper")
+
 // delete todo by its text value ( used below in event listener)
 const deleteTodo = (e) => {
   ipcRenderer.send('delete-todo', e.target.textContent)
@@ -12,9 +14,8 @@ document.getElementById('createTodoBtn').addEventListener('click', () => {
   ipcRenderer.send('add-todo-window')
 })
 // create add notification window button
-document.getElementById('createNotificationBtn').addEventListener('click', () => {
-  ipcRenderer.send('add-notification-window')
-})
+helpers.registerViewResourceWindow("notification")
+helpers.registerViewResourceWindow("product")
 
 // on receive todos
 ipcRenderer.on('todos', (event, todos) => {

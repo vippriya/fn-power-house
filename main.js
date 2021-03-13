@@ -1,16 +1,6 @@
 'use strict'
 
 const axios = require('axios')
-
-const getBreeds = async () => {
-
-  try {
-    return await axios.get('https://dog.ceo/api/breeds/list/all')
-  } catch (error) {
-      console.log("::::::::::::error")
-  }
-}
-
 const path = require('path')
 const { app, ipcMain } = require('electron')
 
@@ -20,6 +10,7 @@ const productCategoryData = require("./renderer/admin_api/data/productCategory.j
 const product = require("./renderer/admin_api/data/product.json")
 const applicationReference= require("./renderer/admin_api/data/applicationReference.json")
 const API= require("./API")
+const helpers = require("./renderer/helper/helper")
 
 
 function getUrl(BASE_URL, suffix) {
@@ -159,27 +150,8 @@ const executeQuery = async (requestProps) => {
       
       }
     }
-   async function initData(action, params) {
-     let response;
- console.log("::::::::iniTData::::::");
 
-      try {
-       
-      
-       response = await axiosRef.request({
-            method: "post",
-            url: "http://localhost:9000/notification/fn_fillAll",
-            retry: 1,
-            retryDelay: 1000
-         });
-        console.error("::::::::done::::::");
-   
-       } catch (e) {
-        console.error("::::::::error::::::", error);
-      
-      }
-      return response ?   response.data: response;
-    }
+    
 
 
  function makePostRequest() {
@@ -247,26 +219,9 @@ function main () {
     }
   })
 
+ helpers.registerAddResourceWindowHandler("notification", mainWindow,Window)
 
-  // create add notificaiton window
-  ipcMain.on('add-notification-window', () => {
-    // if addTodoWin does not already exist
-    if (!addTodoWin) {
-      // create a new add todo window
-      addTodoWin = new Window({
-        file: path.join('renderer', './notification/notification.html'),
-        width: 900,
-        height: 900,
-        // close with the main window
-        parent: mainWindow
-      })
-
-      // cleanup
-      addTodoWin.on('closed', () => {
-        addTodoWin = null
-      })
-    }
-  })
+ helpers.registerAddResourceWindowHandler("product", mainWindow,Window)
 
   
 
@@ -287,14 +242,8 @@ function main () {
     mainWindow.send('todos', updatedTodos)
   })
 
-    // add-todo from add todo window
-  ipcMain.on('init-all-notifications', (event, todo) => {
-    console.log("#####################init all")
-   // const updatedTodos = todosData.addTodo(todo).todos;
-    initData()
-    //mainWindow.send('todos', updatedTodos)
-  })
-
+  helpers.registerEventHandler("notification")
+   helpers.registerEventHandler("product")
   // delete-todo from todo list window
   ipcMain.on('delete-todo', (event, todo) => {
     const updatedTodos = todosData.deleteTodo(todo).todos
