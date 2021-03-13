@@ -254,7 +254,7 @@ function main () {
     if (!addTodoWin) {
       // create a new add todo window
       addTodoWin = new Window({
-        file: path.join('renderer', 'notification.html'),
+        file: path.join('renderer', './notification/notification.html'),
         width: 900,
         height: 900,
         // close with the main window
