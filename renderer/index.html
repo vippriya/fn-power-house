@@ -1,47 +1,41 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Electron Todo</title>
-    <link rel="stylesheet" href="../node_modules/spectre.css/dist/spectre.min.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Electron Todo</title>
+  <link rel="stylesheet" href="../node_modules/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-    <div class="container">
-      <div class="columns">
-        <div class="column col-10">
-          <h1 class="text-center">Todos</h1>
-         
-           <div style="display:flex;flex-direction: column;">
-               <button id="createProductCategoryBtn" type="button" class="btn" style="margin: 32px">
-          product category
+<body>
+  <div class="container">
+    <div class="columns">
+      <div class="column col-10">
+        <h1 class="text-center">Todos</h1>
+
+        <div style="display:flex;flex-direction: column;">
+          <button id="createProductCategoryBtn" type="button" class="btn" style="margin: 32px">
+            product category
           </button>
           <button id="createProductBtn" type="button" class="btn" style="margin: 32px">
-          products
+            products
           </button>
-           <button id="createApplicationBtn" type="button" class="btn">
+          <button id="createApplicationBtn" type="button" class="btn">
             applications
           </button>
- 
-           <button id="createNotificationBtn" type="button" class="btn">
+
+          <button id="createNotificationBtn" type="button" class="btn">
             notification
           </button>
-         
-
-           <button id="createTodoBtn" type="button" class="btn">
-            populate data
-          </button>
-        </div>
-          <ul id="todoList"></ul>
-
 
         </div>
+        <ul id="todoList"></ul>
       </div>
     </div>
+  </div>
 
-    <script src="./index.js"></script>
-  </body>
+  <script src="./index.js"></script>
+</body>
 
 </html>
